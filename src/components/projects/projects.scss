@@ -1,0 +1,73 @@
+.projects {
+  margin-top: 130px;
+  width: 100%;
+  background-color: RGB(230, 218, 206);
+  .content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+
+    .content__title {
+      color: #000000;
+      font-weight: bold;
+      margin-right: 5px;
+      span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #0050ff;
+        margin-right: 5px;
+      }
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #000000;
+      letter-spacing: 1px;
+      margin: 70px 0;
+    }
+
+    .projects__item {
+      .box {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: left;
+        min-height: 400px;
+        margin-bottom: 70px;
+        .about {
+          padding: 40px;
+          width: 60%;
+          display: flex;
+          flex-direction: column    ;
+          justify-content: space-between;
+          h1 {
+            font-size: 25px;
+            color: rgb(0, 80, 255);
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 17px;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+          }
+          a{
+            font-size: 25px;
+            color: #000000;
+          }
+        }
+
+        .project__img {
+          width: 40%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

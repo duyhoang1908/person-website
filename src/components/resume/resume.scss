@@ -1,0 +1,81 @@
+.resume {
+  margin-top: 130px;
+  width: 100%;
+  background-color: RGB(230, 218, 206);
+  .content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+
+    .content__title {
+      color: #000000;
+      font-weight: bold;
+      margin-right: 5px;
+      span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #0050ff;
+        margin-right: 5px;
+      }
+    }
+
+    .experience {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0 30px 0;
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+      a {
+        background-color: rgb(0, 80, 255);
+        border: 1px solid rgb(0, 80, 255);
+        color: #fff;
+        transition: all 0.3s;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 45px;
+        border-radius: 20px;
+        text-decoration: none;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: rgb(0, 80, 255);
+      }
+    }
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: left;
+        .about{
+            width: 40%;
+            h1{
+                font-size: 25px;
+                color: rgb(0, 80, 255);
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 17px;
+                margin-bottom: 15px;
+                letter-spacing: 2px;
+            }
+        }
+
+        .description{
+            width: 60%;
+            font-size: 17px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+        }
+    }
+  }
+}

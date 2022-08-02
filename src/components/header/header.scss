@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #fff;
+    .logo{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: #000000;
+        text-decoration: none;
+        span{
+            width: 20px;
+            height: 20px;
+            background-color: #0050FF;
+            margin-right: 5px;
+        }
+        .name{
+            color: #000000;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        p{
+            margin-right: 5px;
+        }
+
+
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        a{
+            color: #000000;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: rgb(0,80,255);
+        }
+    }
+}

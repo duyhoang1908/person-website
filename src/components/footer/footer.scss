@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color:#000000;
+    font-size: 18px;
+    
+    .contact{
+        display: flex;
+        .box{
+            padding: 0 20px;
+            text-align: center;
+            p{
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            span{
+            }
+            div{
+                display: flex;
+                a{
+                    padding: 5px;
+
+                    text-decoration: none;
+                    color:#000000;
+                }
+            }
+        }
+    }
+}
